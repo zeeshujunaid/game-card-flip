@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/025/162/830/non_2x/green-light-effect-playing-cards-of-spade-against-background-casino-game-and-gambling-concept-generative-ai-technology-photo.jpg);
+    animation: change 40s infinite ease-in;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.diss{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 97.5vh;
+    gap: 160px;
+}
+.card{
+    transition-duration: 1s;
+}
+.card:hover{
+    transform: rotateX(360deg)
+}
+@keyframes change {
+    0% {
+        background-image: url(https://wallpapers.com/images/featured/card-games-nqjmb9v0v49v2mxl.jpg);
+    }
+
+    20% {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV7RqWE3QFmPUTVFUJ9jkDgDeKYNZ3ZIDjiQ&usqp=CAU);
+    }
+
+    40% {
+        background-image: url(https://static.vecteezy.com/system/resources/thumbnails/025/162/825/small_2x/poker-or-playing-cards-on-dark-green-vintage-flourish-background-concept-of-gambling-casino-game-generative-ai-photo.jpg);
+    }
+
+    60% {
+        background-image: url(https://t3.ftcdn.net/jpg/05/87/48/62/360_F_587486224_o4NaJvEMhquRRXN9x80QDqmDFvO4t03w.jpg);
+    }
+
+    80% {
+        background-image: url(https://c0.wallpaperflare.com/preview/524/769/152/ace-blur-card-game-cards.jpg);
+    }
+
+    100% {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB6r7lSx4-44yjM-YKlxQduTrEGZ3ZUpIbmA&usqp=CAU);
+    }
+}
